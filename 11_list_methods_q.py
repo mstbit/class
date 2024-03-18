@@ -6,14 +6,14 @@ print("0. list", fruits)
 fruits.append('')
 print("1. append: ", fruits)   # 1. ['apple', 'banana', 'cherry', 'durian']
 
-# 2. insert()
+# 2. insert()   ['apple', 'banana', 'cherry', 'dragonfruit', 'durian']
 fruits.insert()
 print("2. insert: ", fruits)
 
 # 3. extend()
 fruits2 = ['elder burry', 'fig']
 fruits.extend()
-print("3. extend", fruits)
+print("3. extend", fruits)  # extend ['apple', 'banana', 'cherry', 'dragonfruit', 'durian', 'elder burry', 'fig']
 
 # 4. index()
 print("4. index: ", fruits.index("banana"))     #4. index: 1
