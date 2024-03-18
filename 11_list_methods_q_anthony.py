@@ -3,16 +3,16 @@ fruits = ['apple', 'banana', 'cherry']
 print("0. list", fruits)
 
 # 1. append()
-fruits.append('durian')
+fruits.append('')
 print("1. append: ", fruits)   # 1. ['apple', 'banana', 'cherry', 'durian']
 
 # 2. insert()
-fruits.insert(3, 'dragonfruit')
+fruits.insert()
 print("2. insert: ", fruits)
 
 # 3. extend()
 fruits2 = ['elder burry', 'fig']
-fruits.extend(fruits2)
+fruits.extend()
 print("3. extend", fruits)
 
 # 4. index()
@@ -20,7 +20,7 @@ print("4. index: ", fruits.index("banana"))     #4. index: 1
 
 nums = [1, 2, 3, 4, 9, 2, 2, 5, 6, 7]
 # print("index(): ", nums.index(2, start=4, end=9))
-print("4. index: ", nums.index(2, ))        #4. index: 5
+print("4. index: ", nums.index())        #4. index: 5
 
 # 5. count()
 fruits.append("cherry")

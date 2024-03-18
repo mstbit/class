@@ -7,8 +7,8 @@ fruits.append('durian')
 print("1. append: ", fruits)        # 1. ['apple', 'banana', 'cherry', 'durian']
 
 # 2. insert()
-fruits.insert(3, 'dragonfruit')     # 2. insert:  ['apple', 'banana', 'cherry', 'dragonfruit', 'durian']
-print("2. insert: ", fruits)
+fruits.insert(3,'dragonfruit')     
+print("2. insert: ", fruits)        # 2. insert:  ['apple', 'banana', 'cherry', 'dragonfruit', 'durian']
 
 # 3. extend()
 fruits2 = ['elder burry', 'fig']
@@ -16,15 +16,15 @@ fruits.extend(fruits2)
 print("3. extend", fruits)  # extend ['apple', 'banana', 'cherry', 'dragonfruit', 'durian', 'elder burry', 'fig']
 
 # 4. index()
-print("4.1 index: ", fruits.index("banana"))        #4. index: 1
+print("4.1 index: ", fruits.index('banana'))        #4. index: 1
 
-nums = [1, 2, 3, 4, 9, 2, 2, 5, 6, 7]
-# print("index(): ", nums.index(2, start=4, end=9))
-print("4.2 index: ", nums.index(2, 4, 7))           #4. index: 5
+# nums = [1, 2, 3, 4, 9, 2, 2, 5, 6, 7]
+# print("index(): ", nums.index(2, start=4, end=7))
+# print("4.2 index: ", nums.index(2, 4, 7))           #4. index: 5
 
 # 5. count()
 fruits.append("cherry")
-print("5. count cherry: ", fruits.count('cherry'))  # 5. count cherry:  2
+print("5. count cherry: ", fruits.count("cherry"))  # 5. count cherry:  2
 
 # 6. revers(0)
 fruits.reverse()
