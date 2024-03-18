@@ -3,45 +3,45 @@ fruits = ['apple', 'banana', 'cherry']
 print("0. list: ", fruits)          # list: ['apple', 'banana', 'cherry']
 
 # 1. append()
-fruits.append()
+fruits.append('durian')
 print("1. append: ", fruits)        # 1. ['apple', 'banana', 'cherry', 'durian']
 
 # 2. insert()
-fruits.insert()     
+fruits.insert(3,'dragonfruit')     
 print("2. insert: ", fruits)        # 2. insert:  ['apple', 'banana', 'cherry', 'dragonfruit', 'durian']
 
 # 3. extend()
 fruits2 = ['elder burry', 'fig']
-fruits.extend()
+fruits.extend(fruits2)
 print("3. extend", fruits)  # extend ['apple', 'banana', 'cherry', 'dragonfruit', 'durian', 'elder burry', 'fig']
 
 # 4. index()
-print("4.1 index: ", fruits.index())        #4. index: 1
+print("4.1 index: ", fruits.index('banana'))        #4. index: 1
 
-# nums = [1, 2, 3, 4, 9, 2, 2, 5, 6, 7]
+nums = [1, 2, 3, 4, 9, 2, 2, 5, 6, 7]
 # print("index(): ", nums.index(2, start=4, end=7))
-# print("4.2 index: ", nums.index(2, 4, 7))           #4. index: 5
+print("4.2 index: ", nums.index(2, 4, 7))           #4. index: 5
 
 # 5. count()
 fruits.append("cherry")
-print("5. count cherry: ", fruits.count())  # 5. count cherry:  2
+print("5. count cherry: ", fruits.count('cherry'))  # 5. count cherry:  2
 
 # 6. revers(0)
-fruits.()
+fruits.reverse()
 print("6. reverse: ", fruits)   # 6. reverse:  ['cherry', 'fig', 'elder burry', 'durian', 'dragonfruit', 'cherry', 'banana', 'apple']
 
 # 7. sort(0)
-fruits.()
+fruits.sort()
 print("7. sort: ", fruits)  # 7. sort:  ['apple', 'banana', 'cherry', 'cherry', 'dragonfruit', 'durian', 'elder burry', 'fig']
 
 # 8. remove()   # remove by single value
-fruits.remove('')
+fruits.remove('dragonfruit')
 print("8. remove dragonfruit: ", fruits)
 
 # 9. pop()      # remove by index
-fruits.pop
+fruits.pop(5)
 print("9.1 pop index 5", fruits)    # 9.1 pop index 5 ['apple', 'banana', 'cherry', 'cherry', 'durian', 'fig']
-del fruits
+del fruits[3]
 print("9.2 del index 3", fruits)    # 9.2 del index 3 ['apple', 'banana', 'cherry', 'durian', 'fig']
 
 
