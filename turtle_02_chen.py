@@ -1,10 +1,4 @@
-#import circle_task as c
-
-#import time
-
-#c.forward_right_color(100, 30)
-
-from math import degrees
+# from math import degrees
 import turtle as t
 import time
 
@@ -25,6 +19,8 @@ def forward_right_color(num_steps, degree):
 
 def sunflower(color,length,degree):
 
+    t.fillcolor();
+    t.col
     while True:
     
         t.color(color)
