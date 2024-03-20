@@ -19,4 +19,4 @@ for i in range(100):
 
 t.home()                    ##### brings the turtle home
 t.exitonclick()             ##### you will like this
-t.mainloop()
+t.mainloop()                ##### same as turtle.done()
