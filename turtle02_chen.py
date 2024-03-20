@@ -1,7 +1,13 @@
 import turtle as t
-import time 
+import time
 
-def forward_right_color( num_steps, degrees ):
+t.color('red')
+
+t.fillcolor('yellow')
+t.begin_fill()
+
+
+def forward_right_color(num_steps, degrees):
     for steps in range(num_steps):
         for c in ('blue', 'red', 'green'):
             t.color(c)
@@ -10,13 +16,11 @@ def forward_right_color( num_steps, degrees ):
     time.sleep(5)
     t.clearscreen()
     t.mainloop()
+    t.end_fill()
 
-# forward_right_color(10, 30)
 
+forward_right_color(10, 30)
 
-t.color('red')
-t.fillcolor('yellow')
-t.begin_fill()
 
 # while True:
 #     t.forward(200)
@@ -24,5 +28,5 @@ t.begin_fill()
 #     if abs(t.pos()) < 1:
 #         break
 
-t.end_fill
+t.exitonclick()
 t.mainloop()
