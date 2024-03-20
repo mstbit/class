@@ -5,12 +5,12 @@ t.bgcolor('orange')
 t.shape('turtle')
 
 def shape(side, length):
+    for i in range (side):
+        t.forward(length)
+        t.left(360/side)
 
-    t.forward(length)
-    t.left(360/side)
 
-
-shape(3, 100)
+shape(8, 50)
 
 
 
