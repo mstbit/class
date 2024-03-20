@@ -1,4 +1,3 @@
-# from math import degrees
 import turtle as t
 import time
 
@@ -15,7 +14,7 @@ def forward_right_color(num_steps, degree):
     t.mainloop()
 
 
-# forward_right_color(100, 30)
+forward_right_color(100, 30)
 
 def sunflower(color,length,degree):
 
@@ -33,4 +32,4 @@ def sunflower(color,length,degree):
     t.clearscreen()
     t.mainloop()
     
-sunflower('red', 200, 170)
+# sunflower('red', 200, 170)
