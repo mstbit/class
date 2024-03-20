@@ -22,6 +22,7 @@ def forward_right_color(num_steps, degree):
 
 
 # forward_right_color(100, 30)
+#forward_right_color(100, 30)
 
 def sunflower(color,length,degree):
 
