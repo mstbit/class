@@ -10,8 +10,14 @@ while True:
     if abs(t.pos()) < 1:
         break
 
+
+for i in range
+
+
 t.end_fill()
 
 time.sleep(5)
 t.mainloop()
+
+
 
