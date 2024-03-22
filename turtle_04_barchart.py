@@ -38,5 +38,5 @@ for v in lst:
 
 
 # housekeeping
-# t.exitonclick()
+t.exitonclick()
 t.mainloop()
