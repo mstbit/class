@@ -28,11 +28,11 @@ def drawBar(t, height):
 # Driver Code
 
 
-a_list = [1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5]
+a_list = [1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5]
 a_dic = (calc.freq(a_list))
 # print(a_dic)
 lst = list(a_dic.values())
-# print(lst)
+print(lst)
 for v in lst:
     drawBar(t, v)
 
