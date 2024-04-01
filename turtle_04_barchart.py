@@ -11,7 +11,7 @@ def drawBar(t, height):
     t.left(90)               # Point up
     t.forward(height)        # Draw up the left side
     t.right(90)
-    t.forward(40)            # width of bar, along the top
+    t.forward(100)            # width of bar, along the top
     t.right(90)
     t.forward(height)        # And down again!
     t.left(90)               # put the turtle facing the way we found it.
