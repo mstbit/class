@@ -9,10 +9,9 @@ def forward_right_color(num_steps, degrees):
             t.color(c)
             t.forward (steps)
             t.right(degrees)
-
     time.sleep(5)
-    turtle.clearscreen()
-    turtle.mainloop()
+    t.clearscreen()
+    t.mainloop()
 
 forward_right_color(100, 30)
 
@@ -23,8 +22,8 @@ def sun_flower(color, length, degrees):
         t.left(degrees)
         if abs(t.pos()) < 1:
             time.sleep(5)
-            turtle.clearscreen()
-            turtle.mainloop()
+            t.clearscreen()
+            t.mainloop()
             break
 
 sun_flower('red', 200, 170)
