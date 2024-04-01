@@ -1,0 +1,3 @@
+venv/*
+.DS_Store
+jupyter/01_exercises_answer.ipynb

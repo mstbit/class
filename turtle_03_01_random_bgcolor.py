@@ -1,7 +1,9 @@
 import turtle as t
 from random import random
 
-for i in range(20):
+t.shape('turtle')
+
+for i in range(100):
     steps = int(random() * 100)
     angle = int(random() * 360)
     t.right(angle)
@@ -15,6 +17,6 @@ for i in range(20):
     else:
         t.bgcolor("black")
 
-t.home()
-t.exitonclick()
-t.mainloop()        ### t.done()
+t.home()                    ##### brings the turtle home
+t.exitonclick()             ##### you will like this
+t.mainloop()                ##### same as turtle.done()
