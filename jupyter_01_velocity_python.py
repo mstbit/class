@@ -21,5 +21,5 @@ for i in np.arange(0, 3.1, 0.5):    # 0.5 increment
 plt.title("Time and height")
 plt.xlabel("Time")
 plt.ylabel("Height")
-plt.bar(x, y, color='orange', width=0.25)
-plt.show()
+plt.bar(x, y, color='orange', width=0.25)   # draw
+plt.show()                                  # show

@@ -1,7 +1,9 @@
-import turtle
 import random
 import time
+import turtle
 
+FRAME_RATE = 30  # Frames per second
+TIME_FOR_1_FRAME = 1 / FRAME_RATE  # Seconds
 
 CANNON_STEP = 10
 LASER_LENGTH = 20
@@ -9,15 +11,11 @@ LASER_SPEED = 20
 ALIEN_SPAWN_INTERVAL = 1.2  # Seconds
 ALIEN_SPEED = 3.5
 
-FRAME_RATE = 30  # Frames per second
-TIME_FOR_1_FRAME = 1 / FRAME_RATE  # Seconds
-
 window = turtle.Screen()
 window.tracer(0)
 window.setup(0.5, 0.75)
 window.bgcolor(0.2, 0.2, 0.2)
 window.title("The Real Python Space Invaders")
-
 
 LEFT = -window.window_width() / 2
 RIGHT = window.window_width() / 2
@@ -25,9 +23,6 @@ TOP = window.window_height() / 2
 BOTTOM = -window.window_height() / 2
 FLOOR_LEVEL = 0.9 * BOTTOM
 GUTTER = 0.025 * window.window_width()
-
-lasers = []
-aliens = []
 
 # Create laser cannon
 cannon = turtle.Turtle()
@@ -37,7 +32,6 @@ cannon.shape("square")
 cannon.setposition(0, FLOOR_LEVEL)
 cannon.cannon_movement = 0  # -1, 0 or 1 for left, stationary, right
 
-
 # Create turtle for writing text
 text = turtle.Turtle()
 text.penup()
@@ -45,8 +39,8 @@ text.hideturtle()
 text.setposition(LEFT * 0.8, TOP * 0.8)
 text.color(1, 1, 1)
 
-# Draw cannon
-
+lasers = []
+aliens = []
 
 def draw_cannon():
     cannon.clear()
@@ -59,32 +53,15 @@ def draw_cannon():
     cannon.turtlesize(0.8, 0.3)  # Tip of cannon
     cannon.stamp()
     cannon.sety(FLOOR_LEVEL)
-    window.update()
-
 
 def move_left():
     cannon.cannon_movement = -1
-    new_x = cannon.xcor() - CANNON_STEP
-    if new_x >= LEFT + GUTTER:
-        cannon.setx(new_x)
-        draw_cannon()
-    # cannon.setx(cannon.xcor() - CANNON_STEP)
-    # draw_cannon()
-
 
 def move_right():
-    # cannon.setx(cannon.xcor() + CANNON_STEP)
-    # draw_cannon()
     cannon.cannon_movement = 1
-    new_x = cannon.xcor() + CANNON_STEP
-    if new_x <= RIGHT - GUTTER:
-        cannon.setx(new_x)
-        draw_cannon()
-
 
 def stop_cannon_movement():
     cannon.cannon_movement = 0
-
 
 def create_laser():
     laser = turtle.Turtle()
@@ -101,16 +78,12 @@ def create_laser():
 
     lasers.append(laser)
 
-    # print(len(lasers))
-
-
 def move_laser(laser):
     laser.clear()
     laser.forward(LASER_SPEED)
     # Draw the laser
     laser.forward(LASER_LENGTH)
     laser.forward(-LASER_LENGTH)
-
 
 def create_alien():
     alien = turtle.Turtle()
@@ -128,6 +101,12 @@ def create_alien():
     alien.color(random.random(), random.random(), random.random())
     aliens.append(alien)
 
+def remove_sprite(sprite, sprite_list):
+    sprite.clear()
+    sprite.hideturtle()
+    window.update()
+    sprite_list.remove(sprite)
+    turtle.turtles().remove(sprite)
 
 # Key bindings
 window.onkeypress(move_left, "Left")
@@ -138,14 +117,7 @@ window.onkeypress(create_laser, "space")
 window.onkeypress(turtle.bye, "q")
 window.listen()
 
-
-def remove_sprite(sprite, sprite_list):
-    sprite.clear()
-    sprite.hideturtle()
-    window.update()
-    sprite_list.remove(sprite)
-    turtle.turtles().remove(sprite)
-
+draw_cannon()
 
 # Game loop
 alien_timer = 0
@@ -166,43 +138,37 @@ while game_running:
     if LEFT + GUTTER <= new_x <= RIGHT - GUTTER:
         cannon.setx(new_x)
         draw_cannon()
-
-    while True:
-        # Move all lasers
-        for laser in lasers.copy():
-            move_laser(laser)
-            # Remove laser if it goes off screen
-            if laser.ycor() > TOP:
+    # Move all lasers
+    for laser in lasers.copy():
+        move_laser(laser)
+        # Remove laser if it goes off screen
+        if laser.ycor() > TOP:
+            remove_sprite(laser, lasers)
+            break
+        # Check for collision with aliens
+        for alien in aliens.copy():
+            if laser.distance(alien) < 20:
                 remove_sprite(laser, lasers)
+                remove_sprite(alien, aliens)
+                score += 1
                 break
-            # Check for collision with aliens
-            for alien in aliens.copy():
-                if laser.distance(alien) < 20:
-                    # TODO Remove alien and laser
-                    remove_sprite(laser, lasers)
-                    remove_sprite(alien, aliens)
-                    score += 1
-                    break
+    # Spawn new aliens when time interval elapsed
+    if time.time() - alien_timer > ALIEN_SPAWN_INTERVAL:
+        create_alien()
+        alien_timer = time.time()
 
-        # Spawn new aliens when time interval elapsed
-        if time.time() - alien_timer > ALIEN_SPAWN_INTERVAL:
-            create_alien()
-            alien_timer = time.time()
+    # Move all aliens
+    for alien in aliens:
+        alien.forward(ALIEN_SPEED)
+        # Check for game over
+        if alien.ycor() < FLOOR_LEVEL:
+            game_running = False
+            break
 
-        # Move all aliens
-        for alien in aliens:
-            alien.forward(ALIEN_SPEED)
-            # Check for game over
-            if alien.ycor() < FLOOR_LEVEL:
-                game_running = False
-                break
-
-        time_for_this_frame = time.time() - timer_this_frame
-        if time_for_this_frame < TIME_FOR_1_FRAME:
-            time.sleep(TIME_FOR_1_FRAME - time_for_this_frame)
-
-        window.update()
-
+    time_for_this_frame = time.time() - timer_this_frame
+    if time_for_this_frame < TIME_FOR_1_FRAME:
+        time.sleep(TIME_FOR_1_FRAME - time_for_this_frame)
+    window.update()
 
 splash_text = turtle.Turtle()
 splash_text.hideturtle()
