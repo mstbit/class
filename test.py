@@ -1,17 +1,23 @@
 import turtle as t
+import time
+t.color('red')
+t.fillcolor('yellow')
+t.begin_fill()
+
+while True:
+    t.forward(200)
+    t.left(170)
+    if abs(t.pos()) < 1:
+        break
 
 
-# t.bgcolor('orange')
-# t.shape('turtle')
-
-# def shape(side, length):
-#     for i in range (side):
-#         t.forward(length)
-#         t.left(360/side)
+for i in range
 
 
-# shape(8, 50)
+t.end_fill()
 
-### housekeeping
-t.exitonclick()
+time.sleep(5)
 t.mainloop()
+
+
+
