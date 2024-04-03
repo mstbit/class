@@ -9,10 +9,8 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
+
 # ### what is __name__ == '__main__'? see: https://realpython.com/if-name-main-python/
 # ### main as the entry point in Java
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
