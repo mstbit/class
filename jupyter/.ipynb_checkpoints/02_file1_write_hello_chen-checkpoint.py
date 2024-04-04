@@ -3,8 +3,8 @@
 # ### to handle exceptions  
 
 # ##### open(), write(), close() #####
-file = open('hello.txt', 'w')   # 'w': write mode
+file = open('file1_hello_chen.txt', 'w')   # 'w': write mode
 try:
-    file.write('hello world')
+    file.write('hello worldddddddd')
 finally:
     file.close()
