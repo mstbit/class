@@ -2,3 +2,4 @@ venv/*
 .DS_Store
 jupyter/01_exercises_answer.ipynb
 venv311/*
+.ipynb_checkpoints
