@@ -10,10 +10,10 @@ import csv
 # ### writer() has a writerow() method
 # ### do: open(), writerow()
 
-import os.path
-
+import os.path as path
 data_path = '/Users/tcn85/workspace/class/jupyter/data/'
-with open(os.path.join(data_path, 'members_chen.csv'), 'w') as file:
+
+with open(path.join(data_path, 'members_chen.csv'), 'w', newline='') as file:
     writer = csv.writer(file)   # CSV writer object writing to file
     field = ["name", "age", "country"]  # list
 
