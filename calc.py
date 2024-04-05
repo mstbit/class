@@ -126,5 +126,5 @@ def freq(lst):
     return d
 print("frequency of lst: ", freq(lst))
 
-if __name__== '__main__':
+if __name__ == '__main__':
     print("hello, world")
