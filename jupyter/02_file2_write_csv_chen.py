@@ -9,7 +9,11 @@ import csv
 # ##### the with statement has exception handling
 # ### writer() has a writerow() method
 # ### do: open(), writerow()
-with open('members_chen.csv', 'w', newline='') as file:
+
+import os.path
+
+data_path = '/Users/tcn85/workspace/class/jupyter/data/'
+with open(os.path.join(data_path, 'members_chen.csv'), 'w') as file:
     writer = csv.writer(file)   # CSV writer object writing to file
     field = ["name", "age", "country"]  # list
 
