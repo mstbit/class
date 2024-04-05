@@ -4,3 +4,4 @@ venv/*
 __pychache__/*
 .ipynb_checkpoints/*
 *checkpoint.ipynb
+venv311/
