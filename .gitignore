@@ -1,7 +1,7 @@
 venv/*
 .DS_Store
-.ipynb_checkpoints/
-__pychache__/*
 .ipynb_checkpoints/*
-*checkpoint.ipynb
+__pychache__/*
+# .ipynb_checkpoints/*
+# *checkpoint.ipynb
 venv311/
