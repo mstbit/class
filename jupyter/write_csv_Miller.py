@@ -9,7 +9,7 @@ import csv
 # ##### the with statement has exception handling
 # ### writer() has a writerow() method
 # ### do: open(), writerow()
-with open('members.csv', 'w', newline='') as file:
+with open('members_Miller.csv', 'w', newline='') as file:
     writer = csv.writer(file)   # CSV writer object writing to file
     field = ["name", "age", "country"]  # list
 
