@@ -16,17 +16,14 @@ print("WWWWWWWWWWWWW", data_path)
 with open(data_path+"/data.csv") as f:
     df = pd.read_csv(f)
 
+
 # ##### option 3: path.join ##### works in mac/Windows/Jupyter
 # data = path.join(data_path, "data.csv")
 # with open(data) as f:
 #     df = pd.read_csv(f)
 
-# ##### option 4: path.join ##### works in Windows/macOS/Jupyter
-# data = path.join(data_path, "data.csv")
-# with open(data) as f:
-#     df = pd.read_csv(f)
 
-##### option 5: change dir ##### works in Windows 11/macOS/Jupyter
+##### option 4: change dir ##### works in Windows 11/macOS/Jupyter
 # os.chdir(data_path)
 # df = pd.read_csv("data.csv")
 
