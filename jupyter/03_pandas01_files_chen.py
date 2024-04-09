@@ -17,13 +17,13 @@ print("WWWWWWWWWWWWW", data_path)
 #     df = pd.read_csv(f)
 
 # ##### option 3: path.join #####
-# data = path.join(data_path, "data.csv")
-# with open(data) as f:
-#     df = pd.read_csv(f)
+data = path.join(data_path, "data.csv")
+with open(data) as f:
+    df = pd.read_csv(f)
 
 ##### option 4: change dir #####
-os.chdir(data_path)
-df = pd.read_csv("data.csv")
+# os.chdir(data_path)
+# df = pd.read_csv("data.csv")
 
 # ##### output
 print(df.describe())
