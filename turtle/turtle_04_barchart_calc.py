@@ -62,7 +62,8 @@ for v in lst:
 
 # housekeeping
 t.exitonclick()
-t.done()
+# t.done()
+# t.mainloop()
 
 
 # ### what is __name__ == '__main__'? see: https://realpython.com/if-name-main-python/
