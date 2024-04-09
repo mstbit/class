@@ -6,7 +6,7 @@ HOME = (os.path.expanduser('~'))
 # print("HOMMMMMMMMMMM", HOME)
 
 data_path = HOME + '/workspace/class/jupyter/data'
-# print("WWWWWWWWWWWWW", data_path)
+print("WWWWWWWWWWWWW", data_path)
 
 # ##### option 1:  DOES NOT WORK in Jupyter #####
 # df = pd.read_csv("data/data.csv")
@@ -17,13 +17,13 @@ data_path = HOME + '/workspace/class/jupyter/data'
 #     df = pd.read_csv(f)
 
 # ##### option 3: path.join #####
-data = path.join(data_path, "data.csv")
-with open(data) as f:
-    df = pd.read_csv(f)
+# data = path.join(data_path, "data.csv")
+# with open(data) as f:
+#     df = pd.read_csv(f)
 
-# ##### option 4: change dir #####
-# os.chdir(data_path)
-# df = pd.read_csv("data/data.csv")
+##### option 4: change dir #####
+os.chdir(data_path)
+df = pd.read_csv("data.csv")
 
 # ##### output
 print(df.describe())
