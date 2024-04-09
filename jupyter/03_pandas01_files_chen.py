@@ -8,11 +8,11 @@ print("HOMMMMMMMMMMM", HOME)
 data_path = HOME + '/workspace/class/jupyter/data'
 print("WWWWWWWWWWWWW", data_path)
 
-# ##### option 1:  ##### works in macOS/Windows
+# ##### option 1: ##### works in macOS/Windows
 # df = pd.read_csv(data_path+"/data.csv")
 
 
-# ##### option 2:  ##### works in macOS/Windows
+# ##### option 2: with open ##### works in macOS/Windows
 # with open(data_path+"/data.csv") as f:
 #     df = pd.read_csv(f)
 
