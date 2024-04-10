@@ -4,7 +4,8 @@ CREATE TABLE IF NOT EXISTS SunBelt (
                   UNIQUE
 );
 
-INSERT INTO SunBelt(State) VALUES ("AK");
+INSERT INTO SunBelt(State) VALUES ("Alabama");
+INSERT INTO SunBelt(State) VALUES ("Arkansas");
 INSERT INTO SunBelt(State) VALUES ("Arizona");
 INSERT INTO SunBelt(State) VALUES ("California");
 INSERT INTO SunBelt(State) VALUES ("Colorado");
