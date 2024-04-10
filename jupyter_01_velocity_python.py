@@ -3,6 +3,7 @@
 # ### 1/4. import packages/libraries
 import numpy as np
 import matplotlib.pyplot as plt
+from emoji import emojize 
 
 # ### 2/4. create empty lists for x & y
 x = []

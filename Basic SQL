@@ -1,0 +1,11 @@
+--SELECT * FROM customer;
+
+--SELECT FirstName, LastName FROM customer;
+
+--SELECT * FROM customer;
+
+--SELECT DISTINCT country FROM customer;
+
+--SELECT * FROM customer WHERE country = "Brazil";
+
+SELECT COUNT FROM customer WHERE country = "Brazil";
