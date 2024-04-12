@@ -4,7 +4,8 @@ CREATE TABLE IF NOT EXISTS SunBelt (
                   UNIQUE
 );
 
-INSERT INTO SunBelt(State) VALUES ("AK");
+INSERT INTO SunBelt(State) VALUES ("Alabama");
+INSERT INTO SunBelt(State) VALUES ("Arkansas");
 INSERT INTO SunBelt(State) VALUES ("Arizona");
 INSERT INTO SunBelt(State) VALUES ("California");
 INSERT INTO SunBelt(State) VALUES ("Colorado");
@@ -21,6 +22,10 @@ INSERT INTO SunBelt(State) VALUES ("South Carolina");
 INSERT INTO SunBelt(State) VALUES ("Tennessee");
 INSERT INTO SunBelt(State) VALUES ("Texas");
 INSERT INTO SunBelt(State) VALUES ("Utah");
+
+
+ALTER TABLE SunBelt
+ADD ABBR TEXT;
 
 
 UPDATE SunBelt
