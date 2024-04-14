@@ -18,8 +18,8 @@ data_path = "/Users/tychen/workspace/class/jupyter/data"
 #     df = pd.read_csv(f)
 
 # # ##### option 4: change dir #####
-# os.chdir(data_path)
-# df = pd.read_csv("data.csv")
+os.chdir(data_path)
+df = pd.read_csv("data.csv")
 
 # ##### output
 print(df.describe())

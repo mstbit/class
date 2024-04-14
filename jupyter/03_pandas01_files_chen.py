@@ -13,8 +13,8 @@ print("WWWWWWWWWWWWW", data_path)
 
 
 # ##### option 2: with open ##### works in macOS/Windows/Jupyter
-with open(data_path+"/data.csv") as f:
-    df = pd.read_csv(f)
+# with open(data_path+"/data.csv") as f:
+#     df = pd.read_csv(f)
 
 
 # ##### option 3: path.join ##### works in mac/Windows/Jupyter
@@ -24,9 +24,9 @@ with open(data_path+"/data.csv") as f:
 
 
 ##### option 4: change dir ##### works in Windows 11/macOS/Jupyter
-# os.chdir(data_path)
-# df = pd.read_csv("data.csv")
+os.chdir(data_path)
+df = pd.read_csv("data.csv")
 
 # ##### output
-df.describe()
+print(df.describe())
 
