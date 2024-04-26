@@ -1,7 +1,7 @@
 import datetime
 import mysql.connector
 
-cnx = mysql.connector.connect(user='chen_user', passwd='redcar2024', database='employees')
+cnx = mysql.connector.connect(user='chen_user', passwd='', database='employees')
 cursor = cnx.cursor()
 
 # query = ("SELECT first_name, last_name, hire_date FROM employees WHERE hire_date BETWEEN %s AND %s")
