@@ -1,3 +1,4 @@
+# import mysql_connector
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -6,5 +7,6 @@ mydb = mysql.connector.connect(
   password="redcar2024"
 )
 
-if __name__ == "__main__":
-    print(mydb)
+mycursor = mydb.cursor()
+mycursor.execute("CREATE DATABASE IF NOT EXISTS mydatabase")
+
