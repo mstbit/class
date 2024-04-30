@@ -8,12 +8,16 @@ mydb = mysql.connector.connect(
 )
 # print(mydb)
 
-mycursor = mydb.cursor()
+cursor = mydb.cursor()
 
 sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
 val = ("John", "Highway 21")
-mycursor.execute(sql, val)
+cursor.execute(sql, val)
 
 mydb.commit()
 
-print(mycursor.rowcount, "record inserted.")
+print(cursor.rowcount, "record inserted.")
+
+
+cursor.close()          # ### close recommended
+mydb.close()            # ### close recommended
