@@ -1,18 +1,17 @@
-import mysql_connector as conn
+from mysql_connector_class import ConnClass
 
-mydb = conn.mydb
-cursor = mydb.cursor()
-cursor.execute(
-    "USE mydatabase")
+with ConnClass("mydatabase") as db:
+# mydb = conn.conn().mydb
+# cursor = mydb.cursor()
+    # db.execute("USE mydatabase")
+    sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
+    val = ("Jake", "123 Main St.")
+    db.execute(sql, val)
 
-sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
-val = ("John", "Highway 21")
-cursor.execute(sql, val)
+    db.commit()
 
-mydb.commit()
-
-print(cursor.rowcount, "record inserted.")
+    print(db.cursor.rowcount, "record inserted.")
 
 
-cursor.close()          # ### close recommended
-mydb.close()            # ### close recommended
+    db.cursor.close()          # ### close recommended
+    # db.close()      # ### with should handle this

@@ -6,10 +6,16 @@ cursor = mydb.cursor()
 cursor.execute(
     "USE mydatabase")
 
-sql = "SELECT * FROM customers"
+# cursor.execute("DESCRIBE customers")
+
+sql = "SELECT * FROM customers LIMIT 10"
 cursor.execute(sql)
 
-mydb.commit
+result = cursor.fetchall()      # ### fetch all rows
+for x in result:
+    print(x)
+
+# mydb.commit           # ### not changing the DB
 
 
 
