@@ -2,17 +2,24 @@ import mysql_connector as conn
 
 mydb = conn.mydb
 
-mycursor = mydb.cursor()
-mycursor.execute(
+cursor = mydb.cursor()
+cursor.execute(
     "USE mydatabase")
-mycursor.execute(
+cursor.execute(
     "CREATE TABLE IF NOT EXISTS customers (name VARCHAR(255), address VARCHAR(255))")
 
-mycursor.execute("SHOW TABLES")
+cursor.execute("SHOW TABLES")       # ### note this is a second cursor ==> one connection >1 cursor
 
-for x in mycursor:
+cursor.execute(
+    "ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY")
+
+mydb.commit()           # ### in case auto-commit is not enabled
+
+for x in cursor:
     print(x)
 
 ##### add id column #####
-# mycursor.execute(
-#     "ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY")
+
+
+cursor.close()          # ### close recommended
+mydb.close()            # ### close recommended
