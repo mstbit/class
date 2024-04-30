@@ -10,14 +10,14 @@ cursor.execute(
 
 cursor.execute("SHOW TABLES")       # ### note this is a second cursor ==> one connection >1 cursor
 
-cursor.execute(
-    "ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY")
+# cursor.execute(
+#     "ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY")
 
-mydb.commit()           # ### in case auto-commit is not enabled
 
 for x in cursor:
     print(x)
 
+mydb.commit()           # ### in case auto-commit is not enabled
 ##### add id column #####
 
 

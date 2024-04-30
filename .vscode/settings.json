@@ -13,5 +13,7 @@
             "database": "employees",
             "username": "chen_user"
         }
-    ]
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic"
 }

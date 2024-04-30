@@ -1,9 +1,9 @@
-import mysql.connector
+import mysql.connector as mysql
 
 
 try:    # ### just like files, connections are prone to errors
         # ### mydb (cnx) is just a variable 
-    mydb = mysql.connector.connect(
+    mydb = mysql.connect(
         host="localhost",
         user="chen_user",
         password="passwd2024"

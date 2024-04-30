@@ -1,19 +1,15 @@
-import mysql.connector
+import mysql_connector as conn
 
-mydb = mysql.connector.connect(
-    host="localhost",
-    user="chen_user",
-    password="passwd2024",
-    database="mydatabase"
-)
-# print(mydb)
-
+mydb = conn.mydb
 cursor = mydb.cursor()
+
+cursor.execute(
+    "USE mydatabase")
 
 sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
 val = ("John", "Highway 21")
-cursor.execute(sql, val)
 
+cursor.execute(sql, val)
 mydb.commit()
 
 print(cursor.rowcount, "record inserted.")
