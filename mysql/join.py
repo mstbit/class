@@ -1,13 +1,19 @@
 import mysql.connector
 
-mydb = mysql.connector.connect(
+##### connection
+conn = mysql.connector.connect(
   host="localhost",
   user="chen_user",
-  password="",
+  password="passwd2024",
   database="employees"
 )
 
-mycursor = mydb.cursor()
+if conn is not None:
+    cursor = conn.cursor()
+else:
+    print("connection failed")
+    exit()
+
 
 sql = "SELECT \
   D.dept_no, \
@@ -18,9 +24,12 @@ sql = "SELECT \
       INNER JOIN departments AS D ON DM.dept_no = D.dept_no \
           WHERE DM.to_date = '9999-01-01'"
 
-mycursor.execute(sql)
+cursor.execute(sql)
 
-myresult = mycursor.fetchall()
+result = cursor.fetchall()
 
-for x in myresult:
+for x in result:
   print(x)
+  
+cursor.close()
+conn.close()

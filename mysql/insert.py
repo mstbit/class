@@ -1,14 +1,9 @@
-import mysql.connector
+import mysql_connector as conn
 
-mydb = mysql.connector.connect(
-    host="localhost",
-    user="chen_user",
-    password="",
-    database="mydatabase"
-)
-# print(mydb)
-
+mydb = conn.mydb
 mycursor = mydb.cursor()
+mycursor.execute(
+    "USE mydatabase")
 
 sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
 val = ("John", "Highway 21")

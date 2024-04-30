@@ -6,19 +6,6 @@
                 "enableSsl": "Disabled"
             },
             "previewLimit": 50,
-            "server": "74.208.29.196",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "mysql",
-            "database": "employees",
-            "username": "chen_user"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "previewLimit": 50,
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
