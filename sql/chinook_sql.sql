@@ -24,6 +24,10 @@ INSERT INTO SunBelt(State) VALUES ("Texas");
 INSERT INTO SunBelt(State) VALUES ("Utah");
 
 
+ALTER TABLE SunBelt
+ADD ABBR TEXT;
+
+
 UPDATE SunBelt
    SET ABBR = 'AL'
  WHERE State = 'Alabama';
