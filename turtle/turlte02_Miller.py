@@ -9,7 +9,6 @@ def forward_right_color(num_steps, degrees):
             t.color(c)
             t.forward (steps)
             t.right(degrees)
-
     time.sleep(5)
     t.clearscreen()
     t.mainloop()
