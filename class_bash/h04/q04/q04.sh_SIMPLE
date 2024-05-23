@@ -1,0 +1,15 @@
+#!/bin/bash
+
+file=$1
+
+    echo -n 'Please enter the search term: '
+    read term
+
+        grep -iw $term $file | wc -l
+
+
+
+
+
+
+# grep -iwn $term $file 

@@ -1,0 +1,6 @@
+export MYTMP=~/tmp
+export A3=$HOME/class/a03
+
+alias vs='cat $MYTMP/success.log'
+alias ve='cat $MYTMP/error.log'
+alias rl='rm $MYTMP/error.log $MYTMP/success.log'

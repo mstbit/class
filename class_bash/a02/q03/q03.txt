@@ -1,0 +1,59 @@
+STARTING ./simple.sh
+Script    : ./simple.sh
+User      : chen_user
+Home      : /home/chen_user
+Directory : /home/chen_user/class/a02/q03
+Date      : Fri 02 Feb 2024 03:40:35 PM UTC
+===========================================
+
+Users currently logged are : 
+
+chen_use
+
+This is Linux running on a x86_64 processor.
+
+The system has been up for this long : 15:40:35 up 16 days, 23:09,  3 users,  load average: 0.01, 0.03, 0.00
+
+There are 7 processes running
+
+===========================================
+
+ENDING ./simple.sh
+STARTING ./pinger.sh
+      USER: chen_user
+      DATE: Fri 02 Feb 2024 04:53:49 PM UTC
+      HOST: 127.0.0.1 127.0.1.1 ::1
+
+Scanning starting from localhost
+Scanning for vm at 127.0.0.1 ...done with 127.0.0.1
+
+Scanning complete from localhost
+ENDING ./pinger.sh
+Script    : ./pinger.sh
+User      : chen_user
+Home      : /home/chen_user
+HOST      : localhost : 127.0.0.1 127.0.1.1 ::1
+Date      : Fri 02 Feb 2024 04:53:49 PM UTC
+Directory : /home/chen_user/class/a02/q03
+Scanning the virtual computers around us
+=====================================================
+
+Scanning starting from localhost
+
+Scanning - (localhost ... localhost
+Use dig to find ip address for for 127.0.0.1
+
+Use ping to check connection with 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.043 ms
+64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.040 ms
+64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.042 ms
+
+--- 127.0.0.1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2035ms
+rtt min/avg/max/mdev = 0.040/0.041/0.043/0.001 ms
+Done with 127.0.0.1
+
+=====================================================
+
+Scanning complete from localhost

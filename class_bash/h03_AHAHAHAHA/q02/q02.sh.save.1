@@ -1,0 +1,20 @@
+#!/bin/bash
+
+##### define alias
+alias accounts='ls /home'
+
+##### define ENVs
+export Q2='/home/chen_user/class/h03/q02'
+export WEB=~/public_html
+
+##### define functions
+num=$1
+function extract (){
+  tar -xvf a0$num.tar.gz > t${num}.txt
+
+}
+
+function cleanup () {
+
+
+}

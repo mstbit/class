@@ -1,0 +1,337 @@
+Activity 2: submission file lab02.txt
+
+    Name:    Tsangyao Chen
+    User:    chen_user
+    Host:    localhost
+    Date:    Friday, Feb 2, 2024
+    Time:    17:13
+    USID:    5442D#mtqsDo6hulPagcFo4lq{f4v2B082E%Fryepskug_FnJejhMc6!c3G1z:d7B1z*XnleFhNCc}t2X0daJ@5b6enFM-Hola7yrg7n3aFsST
+
+BEGIN QUESTION 1
+    Checking for required files
+
+        Start output of a01.txt
+            QUESTION 1: Computer Activity
+            
+            Please do NOT delete any characters in this file.
+            The file a01.bak contains a backup copy of this file if you need it.
+            
+            Enter DONE on the line below when you have completed your work.
+            
+            A. 
+            
+            B. 
+            
+            C. 
+            
+            D. 
+            
+            E. 
+            
+            END OF QUESTION 1: This unedited file contains 304 characters.
+
+        End output of a01.txt
+
+
+        Start output of check01.txt
+            Checking for required executable files
+                       OK - solution.pl                                   chxq01-A1
+                       OK - decode.sh                                     chxq01-B1
+            
+            Checking results.txt
+                       OK - results.txt location                          chxq01-C1
+                       OK - results.txt content                           chxq01-D1
+            
+
+        End output of check01.txt
+
+
+        Start output of results.txt
+            Using:   decode.sh
+            Files:   /home/chen_user/class/a02/q01/in
+            Date:    Fri 02 Feb 2024 04:37:28 PM UTC
+            Command: ./decode.sh
+            From:    /home/chen_user/class/a02/q01
+            File 1: encoded file: hello.txt
+            HW ECEJRV LB ER LXHAOA TP XHTIQP XRTCQF TQOK HD LIEGLG RGEO EI HP
+            
+            File 1: decoded file
+            
+            HELLO THERE
+            
+            
+            File 2: encoded file: quick.txt
+            TDGZHROR EWDBXPTNQG XN TQ QNQPYY UEZEIH APCQ LCKGXO TRQRXHTO QBEKBC HYRE
+            TOOUXBTBQAWZ RMNHED XUTN QG VT FXOUOCXITCQXXKDH XMTH QLEHJE PEUYMU MWURPT 
+            JV EQ XZTS QODBXTXQTI QZ OKOL FPVV XY TLQDEZNKROWH XCTYQYOI TRRNHOBZ ETXI
+            TY QEXRTO QZKRLB CEAYIAZXUC YQQO XOTU QQ XPTGQDDPESOKHD GTTZ
+            
+            File 2: decoded file
+            
+            THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG
+            
+            
+            File 3: encoded file: fsu.txt
+            YP!EOW!MUE!U XQ TLQP OI GDOO OL OU TC OQ XQTJ QR OF TCOEOJ OWXJTX QNOGFQ 
+            ON INONGPOEHPOTTOOF,E OO XVTJQE OUFY OYIIWHGDXI TTQZ HBEJ TRTW,LAFXH TFQA
+            TVFOSY IM XD TIQC GMAWHKDJ TD IT XC TUQDRW FJOROJ LWRNFN XKTR QY XYTMQBFT
+            !DSB!JUT EC !BTL XQTYQV AQYYTUOM SBUOXD TCQPXZ TY QKAQGXDLOIIITCRI XRTHQV
+            OX TALM ODFI XSTZQRXH TA QB SA !JCG!GAWEWLGTUPLAQXWTV QG TA 'L SZ EMXV TT
+            QEMA ATXR TA QF DNSGIFEARMMWOBIG LBNKFYORXOTRQNLQ EYEU -ASK TWXXTXQC-QYX
+            AKOH -NUFTIXATB QY -ZGU SN OU.CTV.KXL TCQH.G TV.J OT .LXT TLQS.E WH AU II
+            -M NU DJ ,D-N XMTFQDIV WR-RIPRU NR-D,KOI XGTGQK-MWT LJIP-GNU FR,AXQTUQWXB
+            TQQQ ETWO TNIS AB NPTDXSTG QN SGTYXQTEQK HI AL IFDJSY IF XN TA QO RXGR OL
+            AALU MT FWEDXW TZ QX XQTQ QX FW AYOBND XITKQODT SPXOTF QN EK RL LXOGOWLB
+            NU LOIH XC TW QGMKON EN NLSKXOTI QDXLTQQADPEY ONHKWITJ NMXOTMQR XS TBQDYJ
+            TXRLOAOIXRTSQCTY MLCX AJ IIKFVZEV XRTQ QOXN TOQDRCTPOT HYFZOWXT TU QTSXTR
+            ED HOXWTF QXGPGC IUOCFWATXOTW QXLA,Y SHTNXY TBQP HCFSGFOM IORWFRXFTP QW 
+            XKTJQGFN,FSJTFUR HQXFTRQCGH IGIY SGFDXI TI QN XY TW QK OHOUNZSU XGTZQXXR
+            TW QR TQTE HUAXEG EUXV TT QYRC WI GLARXLTO QQRESYPI 'BAHELTO HY HX SRXG 
+            TTQMXO TD QCNNDNOBNOWE EB XWTX QB XJTZQG AVSF NL'HDQ ERXATW QT LEADTQ TE 
+            TUXO TNQWAJTL BU HC XXTE QU EH EEXU TIQRHIBATNAB XR TBQL TZTLTQ AJ LQXC 
+            TG QLEI DD'L NKSP AQXETJ QXXL TLQV EF WWNZOS DNNFXXTPQC XO TVQZSBHSHUTWEV
+            AE'N PHSF RGXPTWQSAMGBWZRCXWTU QJEB EKAJHKTV TU XQ TG QDXH TWQHSF NIOQ OK
+            XTTV QCXR TI QDFG SBIRINGJXFTEQG HN UN TL SK,I FAXG TJ QRXVTAQQFRRGIFOR 
+            GSFJHFXATRQQTPSJ ,D LMXN TUQXAF FF OIIN GAGPXE TVQX HZES TZSC XZ TZ QHOF
+            FL HSOETSRRXGTL QQXMTX QNEEVT KY IAAPCVMDTC XATBQK OG OU RTTC YC XKTT QD
+            XH TAQSNUTPWV HZ OMEADR XYTHQC XT TK QZSLNLEBOL MD XGTAQG IN LW NTLH OY 
+            ONLQRM ESXBTI QUSCDR XM TDQP NGOK APFCXG TY QOXMTKQM EIFZMVLCAMOB GYRQ XO 
+            TAQT IJSVDB IGACHFXH TR QDTGSVXJTUQHTGNEALISTXWPEEXL TN QMXLTH QU ,FFR NR
+            -HIYLFWM-KXWTJQWOF,T-INFRWIM-PWK IUXRTIQC-A ,QDS NZ-A IJAQWJ.CXLTM QY .H 
+            OI .YTI .H XWTY QE.OTJ.WOZSLGP-T XN TL QF TRUT-RORAE YO-L XETW QZTY SW-I
+            ED EXLVXUTRQSOOFD NALJIL OEMC RQ EGIS SP DK XXTZQGAB MGXC THQCECST 'VTS 
+            XFTX QMARPQTN LKEH AV!VCW !H SKXE TLQEXK TK QEFMOH LF TT OAXOTP QXRUTV IL 
+            OBDH GU AIXVTOQP XKTU QZ UB SH OO TK YEAEXN TF QO TH!IEV UL!YSU !WFFXFTN
+            QYXM TOQMFERHLK OJ OB FBRFXSTK QDII TMDHHEADGIXK TS QIINSFFX TD XLTJQHAB
+            ,UTJ TV EFHG XFTY QGGZWD IUOE FN ONXJTI QPOC,JOKTGOX HJOX GU OVIS OIFIOU
+            XLTQ QWOLOZOBTBOW XOTPQVOG TBOC OZ OYGR OB XG TKQE !W UH!KOM!BYS
+            
+            File 3: decoded file
+            
+            YOU GOT TO FIGHT, FIGHT, FIGHT FOR FSU! YOU GOT TO SCALP 'EM SEMINOLES YOU GOT TO WIN, WIN, WIN, WIN THIS GAME AND ROLL ON DOWN TO MAKE THOSE GOALS FOR FSU IS ON THE WARPATH NOW AND AT THE BATTLE'S END SHE'S GREAT SO FIGHT, FIGHT, FIGHT FOR VICTORY THE SEMINOLES OF FLORIDA STATE F-L-O-R-I-D-A......S-T-A-T-E FLORIDA STATE!! FLORIDA STATE!! FLORIDA STATE WOOOOOOOOOOOOOOOO!!!
+            
+
+        End output of results.txt
+
+    All files found for question 1.
+END QUESTION 1
+
+BEGIN QUESTION 2
+    Checking for required files
+
+        Start output of a02.txt
+            QUESTION 2: Computer Activity
+            
+            Please do NOT delete any characters in this file.
+            The file a02.bak contains a backup copy of this file if you need it.
+            
+            Enter DONE on the line below when you have completed your work.
+            
+            A. 
+            
+            END OF QUESTION 2: This unedited file contains 284 characters.
+
+        End output of a02.txt
+
+
+        Start output of check02.txt
+            Looking for bin directory
+                       OK - bin directory                                   chxq02-A1
+                       OK - decode.sh                                       chxq02-B1
+            
+            Checking results.txt
+                       OK - decode.sh run from bin                          chxq02-C1
+                       OK - results.txt content                             chxq02-D1
+            
+
+        End output of check02.txt
+
+
+        Start output of results.txt
+            Using:   decode.sh
+            Files:   /home/chen_user/class/a02/q02/in
+            Date:    Fri 02 Feb 2024 03:30:36 PM UTC
+            Command: /home/chen_user/bin/decode.sh
+            From:    /home/chen_user/class/a02/q02
+            File 1: encoded file: hello.txt
+            HW ECEJRV LB ER LXHAOA TP XHTIQP XRTCQF TQOK HD LIEGLG RGEO EI HP
+            
+            File 1: decoded file
+            
+            HELLO THERE
+            
+            
+            File 2: encoded file: quick.txt
+            TDGZHROR EWDBXPTNQG XN TQ QNQPYY UEZEIH APCQ LCKGXO TRQRXHTO QBEKBC HYRE
+            TOOUXBTBQAWZ RMNHED XUTN QG VT FXOUOCXITCQXXKDH XMTH QLEHJE PEUYMU MWURPT 
+            JV EQ XZTS QODBXTXQTI QZ OKOL FPVV XY TLQDEZNKROWH XCTYQYOI TRRNHOBZ ETXI
+            TY QEXRTO QZKRLB CEAYIAZXUC YQQO XOTU QQ XPTGQDDPESOKHD GTTZ
+            
+            File 2: decoded file
+            
+            THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG
+            
+            
+            File 3: encoded file: fsu.txt
+            YP!EOW!MUE!U XQ TLQP OI GDOO OL OU TC OQ XQTJ QR OF TCOEOJ OWXJTX QNOGFQ 
+            ON INONGPOEHPOTTOOF,E OO XVTJQE OUFY OYIIWHGDXI TTQZ HBEJ TRTW,LAFXH TFQA
+            TVFOSY IM XD TIQC GMAWHKDJ TD IT XC TUQDRW FJOROJ LWRNFN XKTR QY XYTMQBFT
+            !DSB!JUT EC !BTL XQTYQV AQYYTUOM SBUOXD TCQPXZ TY QKAQGXDLOIIITCRI XRTHQV
+            OX TALM ODFI XSTZQRXH TA QB SA !JCG!GAWEWLGTUPLAQXWTV QG TA 'L SZ EMXV TT
+            QEMA ATXR TA QF DNSGIFEARMMWOBIG LBNKFYORXOTRQNLQ EYEU -ASK TWXXTXQC-QYX
+            AKOH -NUFTIXATB QY -ZGU SN OU.CTV.KXL TCQH.G TV.J OT .LXT TLQS.E WH AU II
+            -M NU DJ ,D-N XMTFQDIV WR-RIPRU NR-D,KOI XGTGQK-MWT LJIP-GNU FR,AXQTUQWXB
+            TQQQ ETWO TNIS AB NPTDXSTG QN SGTYXQTEQK HI AL IFDJSY IF XN TA QO RXGR OL
+            AALU MT FWEDXW TZ QX XQTQ QX FW AYOBND XITKQODT SPXOTF QN EK RL LXOGOWLB
+            NU LOIH XC TW QGMKON EN NLSKXOTI QDXLTQQADPEY ONHKWITJ NMXOTMQR XS TBQDYJ
+            TXRLOAOIXRTSQCTY MLCX AJ IIKFVZEV XRTQ QOXN TOQDRCTPOT HYFZOWXT TU QTSXTR
+            ED HOXWTF QXGPGC IUOCFWATXOTW QXLA,Y SHTNXY TBQP HCFSGFOM IORWFRXFTP QW 
+            XKTJQGFN,FSJTFUR HQXFTRQCGH IGIY SGFDXI TI QN XY TW QK OHOUNZSU XGTZQXXR
+            TW QR TQTE HUAXEG EUXV TT QYRC WI GLARXLTO QQRESYPI 'BAHELTO HY HX SRXG 
+            TTQMXO TD QCNNDNOBNOWE EB XWTX QB XJTZQG AVSF NL'HDQ ERXATW QT LEADTQ TE 
+            TUXO TNQWAJTL BU HC XXTE QU EH EEXU TIQRHIBATNAB XR TBQL TZTLTQ AJ LQXC 
+            TG QLEI DD'L NKSP AQXETJ QXXL TLQV EF WWNZOS DNNFXXTPQC XO TVQZSBHSHUTWEV
+            AE'N PHSF RGXPTWQSAMGBWZRCXWTU QJEB EKAJHKTV TU XQ TG QDXH TWQHSF NIOQ OK
+            XTTV QCXR TI QDFG SBIRINGJXFTEQG HN UN TL SK,I FAXG TJ QRXVTAQQFRRGIFOR 
+            GSFJHFXATRQQTPSJ ,D LMXN TUQXAF FF OIIN GAGPXE TVQX HZES TZSC XZ TZ QHOF
+            FL HSOETSRRXGTL QQXMTX QNEEVT KY IAAPCVMDTC XATBQK OG OU RTTC YC XKTT QD
+            XH TAQSNUTPWV HZ OMEADR XYTHQC XT TK QZSLNLEBOL MD XGTAQG IN LW NTLH OY 
+            ONLQRM ESXBTI QUSCDR XM TDQP NGOK APFCXG TY QOXMTKQM EIFZMVLCAMOB GYRQ XO 
+            TAQT IJSVDB IGACHFXH TR QDTGSVXJTUQHTGNEALISTXWPEEXL TN QMXLTH QU ,FFR NR
+            -HIYLFWM-KXWTJQWOF,T-INFRWIM-PWK IUXRTIQC-A ,QDS NZ-A IJAQWJ.CXLTM QY .H 
+            OI .YTI .H XWTY QE.OTJ.WOZSLGP-T XN TL QF TRUT-RORAE YO-L XETW QZTY SW-I
+            ED EXLVXUTRQSOOFD NALJIL OEMC RQ EGIS SP DK XXTZQGAB MGXC THQCECST 'VTS 
+            XFTX QMARPQTN LKEH AV!VCW !H SKXE TLQEXK TK QEFMOH LF TT OAXOTP QXRUTV IL 
+            OBDH GU AIXVTOQP XKTU QZ UB SH OO TK YEAEXN TF QO TH!IEV UL!YSU !WFFXFTN
+            QYXM TOQMFERHLK OJ OB FBRFXSTK QDII TMDHHEADGIXK TS QIINSFFX TD XLTJQHAB
+            ,UTJ TV EFHG XFTY QGGZWD IUOE FN ONXJTI QPOC,JOKTGOX HJOX GU OVIS OIFIOU
+            XLTQ QWOLOZOBTBOW XOTPQVOG TBOC OZ OYGR OB XG TKQE !W UH!KOM!BYS
+            
+            File 3: decoded file
+            
+            YOU GOT TO FIGHT, FIGHT, FIGHT FOR FSU! YOU GOT TO SCALP 'EM SEMINOLES YOU GOT TO WIN, WIN, WIN, WIN THIS GAME AND ROLL ON DOWN TO MAKE THOSE GOALS FOR FSU IS ON THE WARPATH NOW AND AT THE BATTLE'S END SHE'S GREAT SO FIGHT, FIGHT, FIGHT FOR VICTORY THE SEMINOLES OF FLORIDA STATE F-L-O-R-I-D-A......S-T-A-T-E FLORIDA STATE!! FLORIDA STATE!! FLORIDA STATE WOOOOOOOOOOOOOOOO!!!
+            
+
+        End output of results.txt
+
+    All files found for question 2.
+END QUESTION 2
+
+BEGIN QUESTION 3
+    Checking for required files
+
+        Start output of a03.txt
+            QUESTION 3: Script Creation
+            
+            Please do NOT delete any characters in this file.
+            The file a03.bak contains a backup copy of this file if you need it.
+            Create your script in the file q03.sh. Enter DONE on the line below
+            when you have completed your work.
+            
+            A. 
+            
+            END OF QUESTION 3: This unedited file contains 320 characters.
+
+        End output of a03.txt
+
+
+        Start output of check03.txt
+            Checking for required files
+                       OK - pinger.txt check                             chxq03-A1
+                       OK - whoami.txt check                             chxq03-B1
+                       OK - simple.txt check                             chxq03-C1
+                       OK - q03.txt check                                chxq03-D1
+            
+            Checking file contents
+                       OK - pinger.txt contents                          chxq03-E1
+                       OK - whoami.txt contents                          chxq03-F1
+                       OK - simple.txt contents                          chxq03-G1
+                       OK - q03.txt contents                             chxq03-H1
+            
+
+        End output of check03.txt
+
+
+        Start output of q03.sh
+            #!/bin/bash
+            
+            ./simple.sh > simple.tx
+            ./pinger.sh > pinger.txt
+            cat simple.txt whoami.txt pinger.txt > q03.txt
+
+        End output of q03.sh
+
+
+        Start output of q03.txt
+            STARTING ./simple.sh
+            Script    : ./simple.sh
+            User      : chen_user
+            Home      : /home/chen_user
+            Directory : /home/chen_user/class/a02/q03
+            Date      : Fri 02 Feb 2024 03:40:35 PM UTC
+            ===========================================
+            
+            Users currently logged are : 
+            
+            chen_use
+            
+            This is Linux running on a x86_64 processor.
+            
+            The system has been up for this long : 15:40:35 up 16 days, 23:09,  3 users,  load average: 0.01, 0.03, 0.00
+            
+            There are 7 processes running
+            
+            ===========================================
+            
+            ENDING ./simple.sh
+            STARTING ./pinger.sh
+                  USER: chen_user
+                  DATE: Fri 02 Feb 2024 04:53:49 PM UTC
+                  HOST: 127.0.0.1 127.0.1.1 ::1
+            
+            Scanning starting from localhost
+            Scanning for vm at 127.0.0.1 ...done with 127.0.0.1
+            
+            Scanning complete from localhost
+            ENDING ./pinger.sh
+            Script    : ./pinger.sh
+            User      : chen_user
+            Home      : /home/chen_user
+            HOST      : localhost : 127.0.0.1 127.0.1.1 ::1
+            Date      : Fri 02 Feb 2024 04:53:49 PM UTC
+            Directory : /home/chen_user/class/a02/q03
+            Scanning the virtual computers around us
+            =====================================================
+            
+            Scanning starting from localhost
+            
+            Scanning - (localhost ... localhost
+            Use dig to find ip address for for 127.0.0.1
+            
+            Use ping to check connection with 127.0.0.1
+            PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+            64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.043 ms
+            64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.040 ms
+            64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.042 ms
+            
+            --- 127.0.0.1 ping statistics ---
+            3 packets transmitted, 3 received, 0% packet loss, time 2035ms
+            rtt min/avg/max/mdev = 0.040/0.041/0.043/0.001 ms
+            Done with 127.0.0.1
+            
+            =====================================================
+            
+            Scanning complete from localhost
+
+        End output of q03.txt
+
+    All files found for question 3.
+END QUESTION 3
+
+    Begin summary of file submissions
+        Files needed  = 10
+        Files found   = 10
+        Files missing = 0
+    End summary of file submissions
+
+Activity 2: submission file lab02.txt completed

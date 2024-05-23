@@ -1,0 +1,1 @@
+/home/chen_user/class/e01/q08/check08.sh

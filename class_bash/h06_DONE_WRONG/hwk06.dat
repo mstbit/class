@@ -1,0 +1,136 @@
+Homework 6: submission file hwk06.txt
+
+    Name:    Ty Chen
+    User:    chen_user
+    Host:    localhost
+    Date:    Sunday, Mar 3, 2024
+    Time:    5:53
+    USID:    47v3g#ctdsDo5h7lcarcGoolI{t4m2M0H2e%vrxe4squh_bnneghncb!v3G5B:P5D*anBeIhPCa}r600EhB@4rlaXME-PyxT
+
+BEGIN QUESTION 1
+    Checking for required files
+
+        Start output of a01.txt
+            QUESTION 1: Computer Activity
+            
+            Please do NOT delete any characters in this file.
+            The file a01.bak contains a backup copy of this file if you need it.
+            
+            Enter DONE on the line below when you have completed your work.
+            
+            A. DONE
+            
+            END OF QUESTION 1: This unedited file contains 284 characters.
+
+        End output of a01.txt
+
+    All files found for question 1.
+END QUESTION 1
+
+BEGIN QUESTION 2
+    Checking for required files
+
+        Start output of a02.txt
+            QUESTION 2: Short Answers
+            
+            Please do NOT delete any characters in this file.
+            File a02.bak contains a backup copy of this file.
+            
+            Your answers on the lines below should be one work answers. Refer to
+            your printed question for question details.
+            
+            A. F
+            
+            B. F
+            
+            C. F
+            
+            D. F
+            
+            E. F
+            
+            F. F
+            
+            END OF QUESTION 2: This unedited file contains 345 characters.
+
+        End output of a02.txt
+
+    All files found for question 2.
+END QUESTION 2
+
+BEGIN QUESTION 3
+    Checking for required files
+
+        Start output of a03.txt
+            QUESTION 3: Computer Activity
+            
+            Please do NOT delete any characters in this file.
+            The file a03.bak contains a backup copy of this file if you need it.
+            
+            Enter DONE on the line below when you have completed your work.
+            
+            A. 
+            
+            END OF QUESTION 3: This unedited file contains 284 characters.
+
+        End output of a03.txt
+
+    All files found for question 3.
+END QUESTION 3
+
+BEGIN QUESTION 4
+    Checking for required files
+
+        Start output of a04.txt
+            QUESTION 3: Computer Activity
+            
+            Please do NOT delete any characters in this file.
+            The file a03.bak contains a backup copy of this file if you need it.
+            
+            Enter DONE on the line below when you have completed your work.
+            
+            A. 
+            
+            END OF QUESTION 3: This unedited file contains 284 characters.
+
+        End output of a04.txt
+
+    All files found for question 4.
+END QUESTION 4
+
+BEGIN QUESTION 5
+    Checking for required files
+
+        Start output of a05.txt
+            QUESTION 3: Computer Activity
+            
+            Please do NOT delete any characters in this file.
+            The file a03.bak contains a backup copy of this file if you need it.
+            
+            Enter DONE on the line below when you have completed your work.
+            
+            A. 
+            
+            END OF QUESTION 3: This unedited file contains 284 characters.
+
+        End output of a05.txt
+
+    All files found for question 5.
+END QUESTION 5
+
+    Begin summary of file submissions
+        Files needed  = 5
+        Files found   = 5
+        Files missing = 0
+    End summary of file submissions
+
+    Begin summary of question checks
+        Question 1: Needs more work. a01.txt - 1 of 1 correct, check01.sh gets incorrect answer, all files present.
+        Question 2: Correct!         a02.txt - 6 of 6 correct, all files present.
+        Question 3: Needs more work. a03.txt - 0 of 1 correct, check03.sh gets incorrect answer, all files present.
+        Question 4: Needs more work. a04.txt - 0 of 1 correct, check04.sh gets incorrect answer, all files present.
+        Question 5: Needs more work. a05.txt - 0 of 1 correct, check05.sh gets incorrect answer, all files present.
+    1 out of 5 questions correct
+    End summary of question checks
+
+Homework 6: submission file hwk06.txt completed

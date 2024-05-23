@@ -1,0 +1,7 @@
+#!/bin/bash
+
+alias accounts='ls /home'
+
+export Q2='/home/chen_user/class/h03/q02'
+export WEB=~/public_html
+

@@ -1,0 +1,1 @@
+/home/chen_user/class/a01/q01/check01.sh

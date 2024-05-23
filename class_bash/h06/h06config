@@ -1,0 +1,36 @@
+#
+#	Make sure the accounts have been created and the directory structure
+#	is correct (class, class/a01...a08, class/done.sh, class/done)
+#
+q01 type adddc
+q01 start a01.bak a01.txt check01.sh
+q01 submit
+q01 clean
+#
+#	Make sure apache has been configured properly, a web page exists
+#	and the expanded web page has been untarred and tarred.
+#
+q02 type tf
+q02 start a02.bak a02.txt 
+q02 submit
+# q02 clean 
+#
+#	Make sure the directory tests and the files jobs.txt files.txt, all.txt and web.tar.gz have been created properly
+#
+q03 type xxx
+q03 start a03.bak a03.txt check03.sh
+q03 submit 
+# q03 clean q03.py
+#
+#	Make sure the directory tests and the files jobs.txt files.txt, all.txt and web.tar.gz have been created properly
+#
+q04 type xxx
+q04 start a04.bak a04.txt check04.sh
+q04 submit 
+# q04 clean 
+#
+q05 type ac
+q05 start a05.bak a05.txt q05.py check05.sh
+q05 submit 
+q05 clean
+#

@@ -1,0 +1,21 @@
+STARTING ./simple.sh
+Script    : ./simple.sh
+User      : chen_user
+Home      : /home/chen_user
+Directory : /home/chen_user/class/a02/q03
+Date      : Fri 02 Feb 2024 03:40:35 PM UTC
+===========================================
+
+Users currently logged are : 
+
+chen_use
+
+This is Linux running on a x86_64 processor.
+
+The system has been up for this long : 15:40:35 up 16 days, 23:09,  3 users,  load average: 0.01, 0.03, 0.00
+
+There are 7 processes running
+
+===========================================
+
+ENDING ./simple.sh

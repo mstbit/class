@@ -1,0 +1,85 @@
+#!/bin/bash
+
+
+###### take in parameters -> varialbes ###### 
+default_word=NOTHING
+default_file=test.txt 
+word="$1"
+
+echo -n "Enter the file you want to search: "
+read file
+
+
+###### string test -z and file test -e using the || operator ######
+###### run search inside the conditionals ######
+if [ -z $word ] || [ ! -e $file ]; then
+
+#    word="nothing"
+#    file="test.in"
+    grep -iw $default_word   $default_file
+    echo " ##### Problem(s) with your search term or file.  Default search was run - exiting... ##### "
+    exit
+
+else
+
+    grep -iw $word $file
+    echo "You searched for $word in $file. exiting..."
+    exit
+
+fi
+
+
+
+
+
+
+#    grep -iw $word $file
+
+
+
+# if [ -f $file ]; then
+#    if [ ! -z $word ]; then
+#	echo "Searching for $word in $file"
+#	grep -iw $word $file
+#    else 
+#	echo "File or word input incorrect"
+#	exit
+#    fi
+# else
+#    if [ -z $word ]; then 
+#	grep -iw nothing < test.in
+#    
+    # echo "$file not found - exiting"
+    # exit
+#    fi
+# fi
+
+
+# if [ -z $word ] || [ ! -e $file ] ; then
+#    echo "problem 1 or problem 2";
+#    exit
+# fi
+
+# if [ -z $word ]; then
+#    echo "Please enter a string after the script. "
+#    exit;
+# else 
+# fi
+
+# if [ ! -e $file ]; then
+#    echo "The file $file does not exist. "
+#    exit;
+# fi
+
+# if [ ! -z $word ] && [  -e $file ]; then
+#    grep -iw $word $file
+# fi
+
+
+
+# if [ -z $word ] && [ ! -e $file ]; then
+#    grep -iw nothing test.in
+# fi
+
+
+

@@ -1,0 +1,28 @@
+Script    : ./pinger.sh
+User      : chen_user
+Home      : /home/chen_user
+HOST      : localhost : 127.0.0.1 127.0.1.1 ::1
+Date      : Thu 08 Feb 2024 08:41:29 PM UTC
+Directory : /home/chen_user/class/a02/q03
+Scanning the virtual computers around us
+=====================================================
+
+Scanning starting from localhost
+
+Scanning - (localhost ... localhost
+Use dig to find ip address for for 127.0.0.1
+
+Use ping to check connection with 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.035 ms
+64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.038 ms
+64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.039 ms
+
+--- 127.0.0.1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2051ms
+rtt min/avg/max/mdev = 0.035/0.037/0.039/0.001 ms
+Done with 127.0.0.1
+
+=====================================================
+
+Scanning complete from localhost
